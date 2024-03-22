@@ -1,3 +1,46 @@
-# PSD
-## Librerie Algoritmi di Ricerca
-- './libs/array_sorting/' : libreria contenente gli algoritmi di ordinamento di un vettore
+
+![Logo](https://i.imgur.com/kzIEXHw.png)
+
+
+## Hi 👋, I'm mrxio.developer
+Sono uno studente presso l'Università di Salerno. La seguente repository, contiene tutti gli esercizi e le librerie sviluppate durante il corso di Programmazione e Strutture Dati
+
+
+
+# 💻 Programmazione e Strutture Dati
+![Static Badge](https://img.shields.io/badge/mrxio%20developer%20-%20unisa-F39025) 
+
+
+## Librerie di procedure e funzioni 
+folder: ./libs
+
+### ``` int handlingArray_procedures() ```
+- '/array/' : libreria contenente gli algoritmi applicabili su di un array
+- '/array/sorting/' : libreria contenente gli algoritmi di ordinamento di un array
+- '/array/searching/' : libreria contenente gli algoritmi di ricerca applicabili ad un dato array
+
+### ``` char* handlingStrings_procedures() ```
+- '/string/' : libreria contenente gli algoritmi applicabili su di una stringa
+
+### ``` void utility_procedures() ```
+- '/utility/' : libreria contenente gli algoritmi utili
+
+![Logo](https://i.imgur.com/WLfJiIr.png)
+
+
+
+
+## Elenco esercizi
+Folder: ./esercitazioni/
+## Documentazioni dei Progetti
+
+[Documentation](https://linktodocumentation)
+
+
+
+
+
+
+
+
+
