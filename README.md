@@ -12,19 +12,25 @@ Sono uno studente presso l'Università di Salerno. La seguente repository, conti
 
 
 ## Librerie di procedure e funzioni 
-folder: ./libs
+folder: ``` ./libs ```
 
-### ``` int handlingArray_procedures() ```
-- '/array/' : libreria contenente gli algoritmi applicabili su di un array
-- '/array/sorting/' : libreria contenente gli algoritmi di ordinamento di un array
-- '/array/searching/' : libreria contenente gli algoritmi di ricerca applicabili ad un dato array
+### ``` void handlingArray_procedures(); ```
+- **/array/** : libreria contenente gli algoritmi applicabili su di un array
+- **/array/sorting/** : libreria contenente gli algoritmi di ordinamento di un array
+- **/array/searching/** : libreria contenente gli algoritmi di ricerca applicabili ad un dato array
 
-### ``` char* handlingStrings_procedures() ```
-- '/string/' : libreria contenente gli algoritmi applicabili su di una stringa
+### ``` char* handlingStrings_procedures(); ```
+- **/string/** : libreria contenente gli algoritmi applicabili su di una stringa
 
-### ``` void utility_procedures() ```
-- '/utility/' : libreria contenente gli algoritmi utili
+### ``` void utility_procedures(); ```
+- **/utility/** : libreria contenente gli algoritmi utili
 
+### ``` void handling_linkedLists_procedures(); ```
+- **/linked_list/** : libreria contenente gli algoritmi primitivi per le liste
+- **/linked_list/sorting/** : libreria contenente gli algoritmi di ordinamento per le liste
+- **/linked_list/searcnihg/** : libreria contenente gli algoritmi di ordinamento per le liste
+
+  
 ![Logo](https://i.imgur.com/WLfJiIr.png)
 
 
