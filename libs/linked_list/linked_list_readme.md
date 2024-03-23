@@ -28,14 +28,34 @@ struct nodeList {
 };
 ```
 
-❓ **Come definisco un tipo lista?** Dichiarare una lista è semplice. Definisco un puntatore 
+❓ **Come definisco un tipo lista?** Dichiarare una lista è semplice. Definisco un puntatore che punta all'indirizzo del **nodo testa** della lista
 ```C
 typedef struct nodeList *list;
 ```
 
-  
-![Logo](https://i.imgur.com/WLfJiIr.png)
+❓ **Come scorro una lista?** Con un semplice ciclo! ( while || for )
+```C
+struct nodeList *p_current = list; // variabile iterativa
+while( !p_current ) p_current = p_current->next;
+```
 
+❓ **Come creo una nuova lista?** Semplicemente con l'assegnazione del nodo che punta al nodo testa di NULL. Ciò significa che la lista è vuota. Non ha nessuna sequenza di nodi
+```C
+list = NULL;
+```
+
+
+<hr>
+
+### Algoritmi utili/di base applicabili sulle liste
+
+⚙️ **Inserimento/Rimozione di un nodo in testa** *( Sotto l'ipotesi per cui la lista esiste eh ha almeno un elemento )*
+<br>
+![Logo](https://i.imgur.com/xdsNiS6.png)
+
+⚙️ **Inserimento/Rimozione del nodo in coda** *( Sotto l'ipotesi per cui la lista esiste eh ha almeno un elemento )*
+<br>
+![Logo](https://i.imgur.com/xdsNiS6.png)
 
 
 
