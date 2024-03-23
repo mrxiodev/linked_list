@@ -1,55 +1,56 @@
 
 ![Logo](https://i.imgur.com/kzIEXHw.png)
 
-
-## Hi 👋, I'm mrxio.developer
-Sono uno studente presso l'Università di Salerno. La seguente repository, contiene tutti gli esercizi e le librerie sviluppate durante il corso di Programmazione e Strutture Dati
-
-
-
 # 💻 Programmazione e Strutture Dati
 ![Static Badge](https://img.shields.io/badge/mrxio%20developer%20-%20unisa-F39025) 
 
 
-## Librerie di procedure e funzioni 
+## Libreria "linked list"
 folder: ``` ./libs ```
 
-### ``` void handlingArray_procedures(); ```
-- **/array/** : libreria contenente gli algoritmi applicabili su di un array
-- **/array/sorting/** : libreria contenente gli algoritmi di ordinamento di un array
-- **/array/searching/** : libreria contenente gli algoritmi di ricerca applicabili ad un dato array
+Il modulo presente nella suddetta repository, rappresenta una libreria contenente le funzioni primarie, fondamentali ( non tutte ), per la gestione di liste concatenate ( EN : linkedlist ).
+La costituzione di un modulo, implementa quel concetto - seppur teorico - di IH [ Information Hiding ] e di DA [ Data Abstraction ] sugli algoritmi.
 
-### ``` char* handlingStrings_procedures(); ```
-- **/string/** : libreria contenente gli algoritmi applicabili su di una stringa
+![Logo](https://i.imgur.com/UgmTwI4.png)
 
-### ``` void utility_procedures(); ```
-- **/utility/** : libreria contenente gli algoritmi utili
+<br>
 
-### ``` void handling_linkedLists_procedures(); ```
-- **/linked_list/** : libreria contenente gli algoritmi primitivi per le liste
-- **/linked_list/sorting/** : libreria contenente gli algoritmi di ordinamento per le liste
-- **/linked_list/searcnihg/** : libreria contenente gli algoritmi di ordinamento per le liste
+### Un po' di codice... 
+<hr>
+
+❓ **Com'è strutturato un generico nodo di una lista?**
+E' una struttura autoreferenziata, ovvero che ha un campo che punta verso un'istanza di se stessa
+
+```C
+struct nodeList {
+  item value;
+  struct nodeList *next;
+};
+```
+
+❓ **Come definisco un tipo lista?** Dichiarare una lista è semplice. Definisco un puntatore che punta all'indirizzo del **nodo testa** della lista
+```C
+typedef struct nodeList *list;
+```
+
+❓ **Come scorro una lista?** Con un semplice ciclo! ( while || for )
+```C
+struct nodeList *p_current = list; // variabile iterativa
+while( !p_current ) p_current = p_current->next;
+```
+
+❓ **Come creo una nuova lista?** Semplicemente con l'assegnazione del nodo che punta al nodo testa di NULL. Ciò significa che la lista è vuota. Non ha nessuna sequenza di nodi
+```C
+list = NULL;
+```
 
 
+<hr>
 
+### Un esempio di algoritmo applicabile su di una lista
 
-*Ogni modulo, é dotato di makefile utile per la compilazione del modulo oppure per la concatenazione del medesimo, all'interno di un diverso makefile per un progetto più grande*
-![Logo](https://i.imgur.com/WLfJiIr.png)
-
-
-
-
-## Elenco esercizi
-Folder: ./esercitazioni/
-## Documentazioni dei Progetti
+⚙️ **Inserimento/Rimozione di un nodo in testa** *( Sotto l'ipotesi per cui la lista esiste eh ha almeno un elemento )*
+<br>
+![Logo](https://i.imgur.com/xdsNiS6.png)
 
 [Documentation](https://linktodocumentation)
-
-
-
-
-
-
-
-
-
