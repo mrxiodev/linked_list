@@ -7,6 +7,10 @@
 
 ## Libreria "linked list"
 folder: ``` ./libs ```
+Come installo il modulo?
+```git clone https://github.com/mrxiodev/linked_list.git```
+
+
 
 Il modulo presente nella suddetta repository, rappresenta una libreria contenente le funzioni primarie, fondamentali ( non tutte ), per la gestione di liste concatenate ( EN : linkedlist ).
 La costituzione di un modulo, implementa quel concetto - seppur teorico - di IH [ Information Hiding ] e di DA [ Data Abstraction ] sugli algoritmi.
