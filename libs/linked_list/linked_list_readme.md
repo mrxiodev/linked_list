@@ -11,9 +11,25 @@ folder: ``` ./libs ```
 Il modulo presente nella suddetta repository, rappresenta una libreria contenente le funzioni primarie, fondamentali ( non tutte ), per la gestione di liste concatenate ( EN : linkedlist ).
 La costituzione di un modulo, implementa quel concetto - seppur teorico - di IH [ Information Hiding ] e di DA [ Data Abstraction ] sugli algoritmi.
 
-##### Un po' di codice : Com'è strutturata la lista?
+![Logo](https://i.imgur.com/UgmTwI4.png)
+
+##### Un po' di codice : 
+
+❓ **Com'è strutturata la lista?**
+E' una struttura autoreferenziata, ovvero che ha un campo che punta verso un'istanza di se stessa
+
+```C
+struct nodeList {
+  item value;
+  struct nodeList *next;
+};
+```
 
 
+❓ **Come definisco un tipo lista?** Dichiarare una lista è semplice. Definisco un puntatore 
+```C
+typedef struct nodeList *list;
+```
 
   
 ![Logo](https://i.imgur.com/WLfJiIr.png)
