@@ -6,8 +6,9 @@
 
 
 ## Libreria "linked list"
-folder: ``` ./libs ```
-Come installo il modulo?
+folder: ``` ./libs ``` <br>
+
+Istruzioni per l'installazione del modulo: <br>
 ```git clone https://github.com/mrxiodev/linked_list.git```
 
 
