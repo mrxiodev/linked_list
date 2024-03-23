@@ -32,7 +32,7 @@ folder: ``` ./libs ```
 
 
 
-*Ogni modulo, é dotato di makefile per la compilazione del medesimo*
+*Ogni modulo, é dotato di makefile utile per la compilazione del modulo oppure per la concatenazione del medesimo, all'interno di un diverso makefile per un progetto più grande*
 ![Logo](https://i.imgur.com/WLfJiIr.png)
 
 
