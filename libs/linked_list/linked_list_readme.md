@@ -47,20 +47,10 @@ list = NULL;
 
 <hr>
 
-### Algoritmi utili/di base applicabili sulle liste
+### Un esempio di algoritmo applicabile su di una lista
 
 ⚙️ **Inserimento/Rimozione di un nodo in testa** *( Sotto l'ipotesi per cui la lista esiste eh ha almeno un elemento )*
 <br>
 ![Logo](https://i.imgur.com/xdsNiS6.png)
-
-⚙️ **Inserimento/Rimozione del nodo in coda** *( Sotto l'ipotesi per cui la lista esiste eh ha almeno un elemento )*
-<br>
-![Logo](https://i.imgur.com/xdsNiS6.png)
-
-
-
-## Elenco esercizi
-Folder: ./esercitazioni/
-## Documentazioni dei Progetti
 
 [Documentation](https://linktodocumentation)
