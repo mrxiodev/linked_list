@@ -30,7 +30,9 @@ folder: ``` ./libs ```
 - **/linked_list/sorting/** : libreria contenente gli algoritmi di ordinamento per le liste
 - **/linked_list/searcnihg/** : libreria contenente gli algoritmi di ordinamento per le liste
 
-  
+
+
+*Ogni modulo, é dotato di makefile per la compilazione del medesimo*
 ![Logo](https://i.imgur.com/WLfJiIr.png)
 
 
