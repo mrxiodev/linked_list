@@ -13,9 +13,12 @@ La costituzione di un modulo, implementa quel concetto - seppur teorico - di IH 
 
 ![Logo](https://i.imgur.com/UgmTwI4.png)
 
-##### Un po' di codice : 
+<br>
 
-❓ **Com'è strutturata la lista?**
+### Un po' di codice... 
+<hr>
+
+❓ **Com'è strutturato un generico nodo di una lista?**
 E' una struttura autoreferenziata, ovvero che ha un campo che punta verso un'istanza di se stessa
 
 ```C
@@ -24,7 +27,6 @@ struct nodeList {
   struct nodeList *next;
 };
 ```
-
 
 ❓ **Come definisco un tipo lista?** Dichiarare una lista è semplice. Definisco un puntatore 
 ```C
